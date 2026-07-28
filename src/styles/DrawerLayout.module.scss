@@ -1,0 +1,132 @@
+.logoWrapper {
+  padding-left: 2rem;
+  padding-right: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10rem;
+}
+
+.logo {
+  width: 15.6rem;
+  height: 4rem;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey2) !important;
+  border-radius: 0.4rem;
+  width: 2.9rem !important;
+  height: 3.2rem !important;
+}
+
+.arrow {
+  width: 2.6rem !important;
+  height: 2rem !important;
+  color: var(--dark-grey) !important;
+}
+
+.menu {
+  color: var(--dark-grey);
+  padding: 0 2.7rem 0 3.6rem;
+}
+
+.link {
+  position: relative;
+  svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  div:first-child {
+    height: 2.4rem;
+  }
+}
+
+.link::after {
+  content: "...";
+  position: absolute;
+  right: 1rem;
+  top: 1.7rem;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.9rem;
+  letter-spacing: 0.07em;
+}
+
+// .active::after {
+//   content: "...";
+//   position: absolute;
+//   right: 1rem;
+//   top: 1.7rem;
+//   transform: translateY(-50%);
+//   opacity: 1;
+//   transition: opacity 0.2s ease-in;
+// }
+
+.lower {
+  width: 24.8rem;
+  height: 20rem;
+  border-radius: 1.6rem;
+  background-color: var(--grey3);
+  position: relative;
+  margin-top: 6rem;
+  margin-left: 3rem;
+}
+
+.bulb {
+  position: absolute;
+  top: -3.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6.6rem;
+  height: 6.6rem;
+  background-color: var(--grey3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lowerContainer {
+  padding: 3.7rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--light-grey);
+  text-align: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.4rem;
+  white-space: wrap;
+}
+
+.helpBtn {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: var(--primary-black);
+  background-color: var(--primary-white);
+  width: 16.6rem;
+  height: 4rem;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,271 @@
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 4.1rem;
+  color: var(--transparent-blue);
+}
+
+.right_box {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  cursor: pointer;
+}
+.icon svg,
+.down_icon svg {
+  width: 100%;
+  height: 100%;
+}
+.profile_box {
+  width: 20.6rem;
+  height: 6.2rem;
+  background-color: var(--grey2);
+  border-radius: 3rem;
+  padding: 0.7rem 1.2rem 0.6rem 1.3rem;
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Mobile view adjustment */
+@media (max-width: 600px) {
+  .profile_box {
+    width: 6.6rem;
+    height: 5rem;
+    padding: 0.5rem 0.9rem;
+    gap: 0.8rem;
+    border-radius: 2rem;
+  }
+}
+
+.img_box {
+  width: 6rem;
+  height: 6rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: space-between;
+  width: 100%;
+}
+.profileSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: var(--dark-blue);
+  display: block;
+  white-space: nowrap;
+  max-width: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.role {
+  font-size: 1.4rem;
+  color: #787486;
+  max-width: 60px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.down_icon {
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.profile_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  background: #f2f2f2;
+  padding: 0 2rem 0 1rem;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  transition: border-radius 0.1s ease;
+}
+
+.profileBoxOpen {
+  border-radius: 3rem 3rem 0 0;
+}
+
+.profileBoxClosed {
+  border-radius: 3rem;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #f2f2f2;
+  padding: 1rem 0 1rem 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 3rem 3rem;
+  z-index: 1;
+  width: 100%;
+}
+
+.down_icon {
+  transition: transform 0.2s ease;
+}
+
+.arrowDown {
+  transform: rotate(0deg);
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}
+
+hr {
+  border: 0;
+  height: 0.1rem;
+  background: #ccc;
+}
+.dropdownItem {
+  padding: 1rem 2rem 1rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.profileDropdownImg {
+  padding: 0.5rem 0 0 0;
+  width: 3rem;
+  height: 3rem;
+  color: #00749b;
+  /* margin-right: 0.5rem; */
+}
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 13001 !important;
+}
+.modalBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal_box {
+  width: 50rem;
+  height: 70rem;
+  background-color: #bfbfbf;
+  outline: none;
+  padding: 3rem;
+}
+.profile_information {
+  display: flex;
+  gap: 2.2rem;
+}
+.icons {
+  width: 1.45rem;
+  height: 1.45rem;
+  font-size: 2.4rem !important;
+}
+
+.image {
+  width: 8rem;
+  height: 8rem;
+}
+.camera {
+  width: 3.6rem;
+  height: 3.6rem;
+  background-color: #fff;
+  border-radius: 4rem;
+  position: relative;
+  top: -1rem;
+  left: 2rem;
+}
+.camera_image {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: relative;
+  top: 0.6rem;
+  left: 0.5rem;
+}
+.customer_name {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 1rem;
+  gap: 1rem;
+}
+.name_text {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: 090e29;
+}
+.name_id {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.divider_line {
+  padding-top: 2rem;
+}
+.details {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edit_details {
+  display: flex;
+  gap: 0.2rem;
+}
+.pencile_image {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.basic_text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #090e29;
+}
+.edit_text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #090e29;
+}
+.details_componet {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.headings {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #090e29;
+}
+.headings_name {
+  font-size: 1.3rem;
+  font-weight: 400;
+}

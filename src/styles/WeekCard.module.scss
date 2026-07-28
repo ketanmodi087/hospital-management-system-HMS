@@ -1,0 +1,100 @@
+.section_main {
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  width: 100%;
+}
+.section_subcontainer {
+  margin-top: 1rem;
+}
+.WeekCard {
+  flex-direction: row;
+  display: flex;
+}
+.kpi_text {
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.kpi_section {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 1.5rem 0;
+  /* gap: 1rem; */
+  border-radius: 0.8rem;
+}
+
+.kpi_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.8rem 1.8rem;
+  height: 14rem;
+  width: 22rem;
+  /* width: 91%; */
+  border-radius: 1.5rem;
+  text-align: center;
+}
+.titlevalue_container {
+  width: 100%;
+}
+.kpi_title {
+  font-size: 1.23rem;
+  justify-content: flex-start;
+  display: flex;
+  color: var(--blue);
+  font-weight: 600;
+  opacity: 50%;
+}
+
+.kpi_value {
+  font-size: 2.55rem;
+  margin: 0.5rem 0;
+  justify-content: flex-start;
+  display: flex;
+  font-weight: 600;
+}
+
+.kpi_change {
+  font-size: 2.55rem;
+  width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  font-size: 1.1rem;
+  padding-top: 1.5rem;
+  color: var(--blue);
+}
+.kpi_change_shimmer {
+  font-size: 2.55rem;
+  width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  font-size: 1.1rem;
+  color: var(--blue);
+}
+.image_arrow {
+  height: 0.68rem;
+  width: 0.76rem;
+  object-fit: contain;
+  margin-top: 0.2rem;
+}
+.kpi_change_percent {
+  padding-left: 0.68rem;
+  padding-right: 0.77rem;
+  color: var(--blue);
+  opacity: 50%;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.fromlast_week {
+  color: var(--blue);
+  opacity: 50%;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.no_data {
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 2rem;
+}

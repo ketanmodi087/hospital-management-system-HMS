@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  opacity: 0;
+  z-index: 990;
+  transform: translateX(100rem);
+  transition: all 0.3s ease-in;
+}
+
+.open {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.close {
+  opacity: 0;
+  transform: translateX(100rem);
+}

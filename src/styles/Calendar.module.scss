@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+}
+
+.btn {
+  width: 100%;
+  height: 3.7rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--grey4);
+  transform: translateY(0);
+  border-radius: 0.85rem;
+  font-weight: 500 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.3rem !important;
+  color: var(--blue) !important;
+  transition: all 0.3s ease;
+  border-width: 0.2rem !important;
+  border-color: var(--grey4) !important;
+  /* border: 0.2rem solid var(--grey4) !important; */
+}
+
+.btn:hover {
+  background-color: var(--primary-white);
+  transform: translateY(-0.2rem);
+}
+
+.date {
+  width: 3.4rem;
+}
+
+.month {
+  width: 4.3rem;
+}
+
+.year {
+  width: 4.8rem;
+}
+
+.date,
+.month,
+.year {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  position: absolute;
+  left: 0;
+  top: 3rem;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  z-index: -1;
+}

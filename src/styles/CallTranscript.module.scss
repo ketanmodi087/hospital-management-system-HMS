@@ -1,0 +1,91 @@
+.header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #090e29;
+  padding-top: 2.5rem;
+}
+
+.chatWindow {
+  flex-grow: 1;
+
+  overflow-y: auto;
+  background-color: #ffffff;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatWindow::-webkit-scrollbar {
+  display: none;
+}
+
+.chatWindow {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.sender {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #090e29;
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 1rem;
+}
+
+.message {
+  font-size: 1.3rem;
+  padding: 1rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  max-width: 60%;
+}
+
+.Customer {
+  align-items: flex-end;
+}
+
+.Customer .message {
+  background-color: #c4fbda;
+  align-self: flex-end;
+  border-radius: 2rem 0rem 2rem 2rem;
+  max-width: 58rem;
+  padding: 1.1rem;
+  font-size: 1.3rem;
+}
+
+.Agent .message {
+  background-color: #e9edf4;
+  align-self: flex-start;
+  border-radius: 0rem 2rem 2rem 2rem;
+  max-width: 58rem;
+  padding: 1.1rem;
+  font-size: 1.3rem;
+}
+
+.Customer .sender {
+  background-color: #c4fbda;
+}
+
+.Agent .sender {
+  background-color: #e9edf4;
+}
+
+.skeletonSender {
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.Agent .skeletonMessage {
+  border-radius: 0rem 2rem 2rem 2rem;
+}
+
+.Customer .skeletonMessage {
+  border-radius: 2rem 0rem 2rem 2rem;
+}

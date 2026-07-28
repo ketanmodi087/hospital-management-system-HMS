@@ -1,0 +1,74 @@
+.bottom_component {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-white);
+  width: 100%;
+}
+.heading_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.7rem;
+  padding-left: 3rem;
+  margin: 2rem 0;
+}
+.weeks_div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 7rem;
+  margin-bottom: 3rem;
+}
+.weeks_btn {
+  padding: 1rem 3rem;
+  background-color: var(--grey4);
+  border-radius: 5rem;
+  border-style: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  cursor: pointer;
+}
+
+.bar_contanier {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  justify-content: space-between;
+}
+.bar_contanier_value {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 3rem;
+  padding-right: 6rem;
+}
+.number_value {
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 7.3rem;
+}
+.str_value {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.5rem;
+}
+.calendar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+
+.to {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.03em;
+  color: var(--blue);
+}

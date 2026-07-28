@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.right_box {
+  width: 100%;
+}
+
+.other {
+  margin-top: 17.4rem;
+  margin-left: 30.8rem;
+}

@@ -1,0 +1,159 @@
+.highcharts-figure {
+  width: 40px;
+  /* margin: 1em auto; */
+  display: flex;
+  justify-content: center;
+}
+
+.highcharts-figure .highcharts-container {
+  width: 100% !important;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+/* Style for connectors */
+.highcharts-data-label text {
+  fill: currentColor;
+}
+.component {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.9rem;
+  margin-bottom: 2.9rem;
+}
+.container {
+  display: flex;
+}
+
+.chartContainer {
+  /* margin-right: 2rem; */
+}
+
+/* .highchartsFigure {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.statsContainer {
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 3rem; */
+}
+
+.mainStat {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.87rem;
+  color: #000;
+}
+
+.subStat {
+  font-size: 1.1rem;
+  color: green;
+  margin: 0;
+  margin-bottom: 3.4rem;
+}
+
+.statRow {
+  display: flex;
+  align-items: center;
+}
+
+.box_color {
+  width: 1rem;
+  height: 1rem;
+  background-color: #007aff;
+  margin-right: 0.5rem;
+}
+
+.statValue {
+  font-weight: 700;
+  color: #000;
+}
+
+.details_data {
+  display: grid;
+  gap: 2rem;
+  white-space: nowrap;
+}
+
+.info {
+  display: flex;
+  gap: 3.54rem;
+  font-size: 1.1rem;
+  line-height: 1.33rem;
+}
+
+.pro_active {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  background-color: #d1ffe5;
+}
+
+.pro_active_up {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #d1ffe5;
+}
+.pro_active_down {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #ffd7dd;
+}
+
+.up_arrow path {
+  fill: green;
+}
+
+.down_arrow {
+  fill: red;
+}
+
+.stats {
+  margin-left: 0.5rem;
+}

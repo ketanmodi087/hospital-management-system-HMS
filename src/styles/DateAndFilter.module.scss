@@ -1,0 +1,51 @@
+.end {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.to {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.03em;
+  color: var(--blue);
+}
+
+.filter_wrapper {
+  position: relative;
+}
+
+.filter_box {
+  width: 11.6rem;
+  height: 3.7rem;
+  background-color: var(--grey4);
+  border-radius: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: var(--blue);
+  transition: all 0.3s ease-in;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--blue);
+  color: var(--primary-white);
+}
+
+.filter_icon {
+  width: 2rem;
+  height: 2rem;
+}

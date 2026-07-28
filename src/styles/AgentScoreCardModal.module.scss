@@ -1,0 +1,32 @@
+.dialogTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  // box-shadow: rgba(0, 0, 0, 0.15) 5px 0px 5px 0px;
+  // margin-bottom: 2rem;
+}
+
+.dialogContent {
+  max-height: 400px;
+  overflow-y: auto;
+  min-width: 70rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stickyHeader {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.tableRow td {
+  border-bottom: none;
+}

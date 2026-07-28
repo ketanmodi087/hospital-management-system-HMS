@@ -1,0 +1,77 @@
+.container {
+  padding: 0rem 0.7rem 1.2rem 1.2rem;
+  background-color: var(--primary-white);
+  width: 100%;
+  height: auto;
+}
+
+.main_wrapper {
+  background-color: var(--grey4);
+  border-radius: 0.8rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.left {
+  /* flex: 1; */
+}
+
+.chart {
+  height: auto;
+  width: 100%;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: var(--blue);
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+}
+
+.right {
+  width: 17rem;
+  margin-top: -7rem;
+}
+
+.score {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: var(--blue);
+  display: block;
+}
+
+.subheading {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  display: block;
+}
+
+.tick {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  color: var(--blue);
+}
+
+.naMessage {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #888;
+  padding: 5rem;
+}
