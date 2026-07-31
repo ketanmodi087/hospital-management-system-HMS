@@ -1,0 +1,31 @@
+.chartContainer {
+  padding: 12px 12px 8px 0;
+  margin: 16px 0;
+  height: 320px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 0 12px;
+}
+
+.filters {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  padding: 0 12px;
+}
+
+.chart {
+  flex: 1;
+  min-height: 180px;
+  position: relative;
+} 

@@ -1,0 +1,36 @@
+.chartContainer {
+  height: 100%;
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.content {
+  height: calc(100% - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global {
+  .MuiTableCell-root {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .MuiTableHead-root .MuiTableCell-root {
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+} 

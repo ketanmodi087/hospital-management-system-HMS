@@ -1,0 +1,23 @@
+.chartContainer {
+  padding: 16px 16px 8px 0;
+  margin: 16px 0;
+  width: 500px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 0 16px;
+}
+
+.chart {
+  flex: 1;
+  min-height: 210px;
+  position: relative;
+} 
