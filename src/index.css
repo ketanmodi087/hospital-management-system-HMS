@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --primary-white: #ffffff;
+  --secondary-white: #dbdbdb;
+  --light-green: rgba(58, 243, 132, 0.3);
+  --light-grey: #787486;
+  --grey: #e4e4e4;
+  --grey2: #f2f2f2;
+  --grey3: #f5f5f5;
+  --grey4: #f5f6f8;
+  --grey5: #d9d9d9;
+  --blue: #090e29;
+  --dark-blue: #0d062d;
+  --transparent-blue: rgba(9, 14, 41, 0.3);
+  --light-blue: #1172e4;
+  --primary-black: #000000;
+  --shadow: #0000000d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter;
+  font-weight: 400;
+  background-color: var(--grey);
+}
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.react-calendar {
+  position: absolute;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1280px) {
+  html {
+    font-size: 41%;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+  html {
+    font-size: 47%;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  html {
+    font-size: 51%;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media screen and (min-width: 1801px) and (max-width: 1920px) {
+  html {
+    font-size: 64.25%;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  html {
+    font-size: 70%;
+  }
+}
